@@ -1,0 +1,42 @@
+{
+  "additional_special_tokens": [
+    "[EOD]",
+    "[CLS]",
+    "[PAD]",
+    "[BOM]",
+    "[BOS]",
+    "[EOS]",
+    "[BOP]",
+    "[EOP]",
+    "[LAT]",
+    "[URL]",
+    "[KRK]",
+    "[NUM]",
+    "[UNK]",
+    "۰",
+    "۱",
+    "۲",
+    "۳",
+    "۴",
+    "۵",
+    "۶",
+    "۷",
+    "۸",
+    "۹",
+    "[MSK]",
+    "[EOL]"
+  ],
+  "bos_token": "[BOS]",
+  "cls_token": "[CLS]",
+  "eos_token": "[EOS]",
+  "mask_token": {
+    "content": "[MSK]",
+    "lstrip": true,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "unk_token": "[UNK]"
+}
